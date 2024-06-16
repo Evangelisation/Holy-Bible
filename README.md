@@ -17,6 +17,6 @@ https://albishara.net/bible/index/P
 ## Best Bible Apps:
 https://play.google.com/store/apps/details?id=org.lighthousecatholicmedia.lcmbible
 
-https://play.google.com/store/apps/details?id=br.com.frizeiro.bibliasvd
-
 https://play.google.com/store/apps/details?id=net.alketabalmokadas.app
+
+https://play.google.com/store/apps/details?id=br.com.frizeiro.bibliasvd

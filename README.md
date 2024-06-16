@@ -9,6 +9,11 @@
 5. Store all tags/highlights/tagged verses in a file (export/import).
 6. Use layout like AVD Bible.
 
+### Also build a web bible:
+https://enjeel.com/
+
+https://albishara.net/bible/index/P
+
 ## Best Bible Apps:
 https://play.google.com/store/apps/details?id=org.lighthousecatholicmedia.lcmbible
 

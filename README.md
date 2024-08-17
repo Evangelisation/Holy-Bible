@@ -1,5 +1,7 @@
 # Generic Bible App (Arabic/English):
 
+This is an open invitation to join me in designing an Arabic bible app. There are no good bible apps (except the ones mentioned below), but they are either too clunky or lack features, or (all) even do not have the good Arabic translations.
+
 ### Help wanted:
 
 1. Read books, chapters, verses from file/database. Adapt to English/Arabic RTL/LTR.

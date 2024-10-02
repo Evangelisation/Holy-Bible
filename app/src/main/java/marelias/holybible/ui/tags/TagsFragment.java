@@ -1,4 +1,4 @@
-package marelias.holybible.ui.notifications;
+package marelias.holybible.ui.tags;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import marelias.holybible.databinding.FragmentNotificationsBinding;
+import marelias.holybible.databinding.FragmentTagsBinding;
 
-public class NotificationsFragment extends Fragment {
+public class TagsFragment extends Fragment {
 
-    private FragmentNotificationsBinding binding;
+    private FragmentTagsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NotificationsViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(NotificationsViewModel.class);
+        TagsViewModel tagsViewModel =
+                new ViewModelProvider(this).get(TagsViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentTagsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textTags;
+        tagsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

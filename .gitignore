@@ -15,9 +15,9 @@
 
 output.json
 local.properties
-gradle-wrapper.properties
-crowdin.properties
-gradle.properties
+#gradle-wrapper.properties
+#crowdin.properties
+#gradle.properties
 
 .idea/
 build/

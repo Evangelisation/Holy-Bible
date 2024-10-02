@@ -1,16 +1,16 @@
-package marelias.holybible.ui.dashboard;
+package marelias.holybible.ui.highlights;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class HighlightsViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public HighlightsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is highlights fragment");
     }
 
     public LiveData<String> getText() {

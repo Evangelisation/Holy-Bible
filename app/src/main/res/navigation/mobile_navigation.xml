@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="marelias.holybible.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_highlights"
+        android:name="marelias.holybible.ui.highlights.HighlightsFragment"
         android:label="@string/title_highlights"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_highlights" />
 
     <fragment
         android:id="@+id/navigation_notifications"

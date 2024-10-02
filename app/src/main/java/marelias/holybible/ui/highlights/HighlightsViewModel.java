@@ -10,7 +10,7 @@ public class HighlightsViewModel extends ViewModel {
 
     public HighlightsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is highlights fragment");
+        mText.setValue("Here are the highlights");
     }
 
     public LiveData<String> getText() {

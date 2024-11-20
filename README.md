@@ -10,6 +10,7 @@ This is an open invitation to join me in designing an Arabic bible app. There ar
 - Store all tags/highlights/tagged verses in a file (export/import).
 - Use layout like AVD Bible.
 - Save all search history
+- advanced search algorithms functionality
 
 ### Also build a web bible:
 https://enjeel.com/
